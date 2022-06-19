@@ -75,20 +75,9 @@ namespace WinFormsApp2
                 popUpError.Show();
                 return;
             }
-            
             var dataTables = new DataTables(filePath);
             dataTables.Show();
-            if (dataTables.Focus())
-            {
-               this.Hide();
-            }
-            
-            
-            
-            
-            
-
-
+            this.Hide();
         }
     }
 }

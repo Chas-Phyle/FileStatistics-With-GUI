@@ -24,7 +24,10 @@ namespace WinFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
+            Form form = new Exitprompt();
+            form.Show();
+            //Application.Exit();
         }
     }
 }
