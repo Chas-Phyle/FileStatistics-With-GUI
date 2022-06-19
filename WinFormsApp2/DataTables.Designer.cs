@@ -92,13 +92,23 @@ namespace WinFormsApp2
         {
             
             var final = fileStatistics(path);
-            for(int i = 0; i < 20;i++)
+            if ((final.Length/2) < 20)
+            {
+                for (int i = 0; i<(final.Length/2); i++)
+                {
+
+                    this.dataGridView1.Rows.Add(final[((final.Length / 2) - 1) - i, 0], final[((final.Length / 2) - 1) - i, 1]);
+
+                }
+            }
+            else { 
+            for(int i = 0; (i < 20);i++)
             {
         
                     this.dataGridView1.Rows.Add(final[((final.Length/2)-1) - i, 0], final[((final.Length/2)-1)-i, 1]);
                 
             }
-            
+            }
         }
 
         private Button button1;

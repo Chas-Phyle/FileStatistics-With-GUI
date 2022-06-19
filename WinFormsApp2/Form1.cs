@@ -1,21 +1,20 @@
-using static WinFormsApp2.Program;
 namespace WinFormsApp2
-   
+
 {
     public partial class Form1 : Form
     {
         public string filePath = string.Empty;
-        
-        public  Form1()
+
+        public Form1()
         {
             InitializeComponent();
-            
+
         }
         public string getFilePath()
         {
             return filePath;
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -38,7 +37,7 @@ namespace WinFormsApp2
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.InitialDirectory = "c:\\";
             ofd.Filter = "txt files (*.txt)|*.txt"; //Add more file types later if you can get the statistics to work on them
-                                                   //use "| All files (*.*)|*.*" as template to add more
+                                                    //use "| All files (*.*)|*.*" as template to add more
             ofd.FilterIndex = 2;
             ofd.Multiselect = true;
             ofd.RestoreDirectory = true;
@@ -58,7 +57,7 @@ namespace WinFormsApp2
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -69,7 +68,7 @@ namespace WinFormsApp2
 
         private void button2_Click(object sender, EventArgs e) //enter button
         {
-            if(filePath == string.Empty)
+            if (filePath == string.Empty)
             {
                 var popUpError = new PopUpError();
                 popUpError.Show();

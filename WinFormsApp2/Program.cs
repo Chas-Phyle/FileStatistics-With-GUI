@@ -1,7 +1,3 @@
-using System;
-using System.IO;
-
-
 namespace WinFormsApp2
 {
     internal static class Program
@@ -10,12 +6,12 @@ namespace WinFormsApp2
         [STAThread] //used for communication with COM components in OS
         static void Main()
         {
-            
+
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
 
-            
-            
+
+
         }
         public static void setPath(string pathLocation)
         {
@@ -33,16 +29,13 @@ namespace WinFormsApp2
                 Application.Run(new PopUpError());
             }
             wholeDocument = File.ReadAllText(directory);
-            //using (StreamReader sr = File.OpenText(directory))  //Outputs everything in the file to a string
-            //{
-            //   while ((wholeDocument = sr.ReadLine()) != null)
-            //    {
-              //      wholeDocument = sr.ReadLine();
-
-                //}
-            //}
+            
             var vs2 = wholeDocument.Split(" ");    //Splits the document on all Spaces
+            if(vs2.Length ==1)                     //If the doucment does not contain any spaces it will split on another character
+            {
+                vs2 = wholeDocument.Split("\n");
 
+            }
             vs2 = FileCleaner(vs2);
             var numberOfWords = vs2.Length;
             var query = vs2.GroupBy(r => r).Where(r => (r != null)).Select(grp => new
@@ -56,48 +49,37 @@ namespace WinFormsApp2
             int[] numberOfOcurances = new int[numberOfWords];
             foreach (var i in query)
             {
-                word[counter] = i.Value;
+                word[counter] = i.Value.ToString();
                 numberOfOcurances[counter] = i.Count;
                 counter++;
             }
             word = word.Where(x => !string.IsNullOrEmpty(x)).ToArray();             //used to remove any null or empty values
             numberOfOcurances = numberOfOcurances.Where(x => (x != 0)).ToArray();   //used to remove anything that = 0 neither the top or bottom command should change anything but its a precaution
             counter = 0;
-            
+
             Array.Sort(numberOfOcurances, word);
             string[] numberOfOcurancesString = new string[word.Length]; //need to convert numberOfOcurances to string form to pass it out of the method !!can't use object
-            foreach(var i in numberOfOcurances)
+            foreach (var i in numberOfOcurances)
             {
-               numberOfOcurancesString[counter] = i.ToString() ;
+                numberOfOcurancesString[counter] = i.ToString();
                 counter++;
             }
-            var final = new String[word.Length,2];
+            var final = new String[word.Length, 2];
             counter = 0;
-            foreach(var i in word)
+            foreach (var i in word)
             {
-                final[counter,0] = i;
+                final[counter, 0] = i;
                 counter++;
             }
             counter = 0;
-            foreach(var i in numberOfOcurancesString)
+            foreach (var i in numberOfOcurancesString)
             {
-                final[counter,1] = i;
+                final[counter, 1] = i;
                 counter++;
             }
-           //creating a test file and writing to it
-           //using (StreamWriter sw = File.CreateText(directory + "test.txt"))    //need to parse out the example.txt in the directory protion and just get to the folder
-                //maybe get rid of this whole section
-           // {
-            //    for(int i = 0; i < word.Length; i++)
-              //  {
-                //    sw.WriteLine($"{word[i]}\t\t{numberOfOcurances[i]}\n");
-
-               // }
-            //}
-            //Open the file to read from **this is the important one!***
             return final;
         }
-       
+
         static string[] FileCleaner(string[] arrayThatHasIt)     //used to clean up an array that has a lot of excess characters
         {
             string[] stringToRemove = {",",".","-", "—", @"""", "\"",";","!","`","?", "`", "“", "”", "‘", ":", @"\r"
@@ -110,10 +92,16 @@ namespace WinFormsApp2
                 foreach (var j in stringToRemove)
                 {
                     string temp = arrayThatHasIt[x];
+                    double tempInt;
+                    bool itsANumber= double.TryParse(temp, out tempInt);    //checks if the string is a number or char
                     if (temp.Contains(stringToRemove[y]))
                     {
+                        if(itsANumber)                                      //if its a number it should  be left alone and sent back without removing the decimal
+                        {
+                            arrayThatHasIt[x] = temp;
+                            break;
+                        }
                         string[] vs3 = temp.Split(stringToRemove[y]);
-
                         if (vs3[0] == stringToRemove[y])
                         {
                             arrayThatHasIt[x] = vs3[1];
@@ -123,9 +111,10 @@ namespace WinFormsApp2
                             arrayThatHasIt[x] = vs3[0];
                         }
                     }
-                    
+
                     y++;
-                }x++;
+                }
+                x++;
                 y = 0;
             }
             arrayThatHasIt = arrayThatHasIt.Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();    //used to remove an null or white space
