@@ -1,6 +1,6 @@
 namespace WinFormsApp2
 {
-    internal static class Program
+    public static class Program
     {
         private static string currentPath;
         [STAThread] //used for communication with COM components in OS
@@ -80,7 +80,7 @@ namespace WinFormsApp2
             return final;
         }
 
-        static string[] FileCleaner(string[] arrayThatHasIt)     //used to clean up an array that has a lot of excess characters
+        public static string[] FileCleaner(string[] arrayThatHasIt)     //used to clean up an array that has a lot of excess characters
         {
             string[] stringToRemove = {",",".","-", "—", @"""", "\"",";","!","`","?", "`", "“", "”", "‘", ":", @"\r"
             ,@"\n",@"\t"};      //everything to remove from the document
