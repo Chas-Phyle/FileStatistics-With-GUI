@@ -102,6 +102,6 @@ namespace WinFormsApp2
         private TextBox textBox1;
         private Label label1;
     }
-    
+   
     
 }

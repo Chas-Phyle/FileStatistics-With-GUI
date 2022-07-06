@@ -21,6 +21,12 @@ namespace WinFormsApp2
         {
             return currentPath;
         }
+
+        /// <summary>
+        /// This method takes in the string of a document and cleans up the string to remove special characters. After which it counts each occurance of a word and sorts them into an aray
+        /// </summary>
+        /// <param name="directory"></param>
+        /// <returns>A 2D array with words in column 0 and their occurances in column 1</returns>
         public static string[,] fileStatistics(string directory)
         {
             string wholeDocument;
@@ -80,6 +86,11 @@ namespace WinFormsApp2
             return final;
         }
 
+        /// <summary>
+        /// A method that takes in an array and removes any special characters from the array. The array will also put every character into lower case. The special characters that are removed include: ",",".","-", "—", @"""", "\"",";","!","`","?", "`", "“", "”", "‘", ":", @"\r",@"\n",@"\t". 
+        /// </summary>
+        /// <param name="arrayThatHasIt"></param>
+        /// <returns>A 1D array</returns>
         public static string[] FileCleaner(string[] arrayThatHasIt)     //used to clean up an array that has a lot of excess characters
         {
             string[] stringToRemove = {",",".","-", "—", @"""", "\"",";","!","`","?", "`", "“", "”", "‘", ":", @"\r"
