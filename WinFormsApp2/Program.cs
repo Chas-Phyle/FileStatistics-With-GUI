@@ -1,3 +1,4 @@
+
 namespace WinFormsApp2
 {
     public static class Program
@@ -35,9 +36,9 @@ namespace WinFormsApp2
                 Application.Run(new PopUpError());
             }
             wholeDocument = File.ReadAllText(directory);
-            
+
             var vs2 = wholeDocument.Split(" ");    //Splits the document on all Spaces
-            if(vs2.Length ==1)                     //If the doucment does not contain any spaces it will split on another character
+            if (vs2.Length == 1)                     //If the doucment does not contain any spaces it will split on another character
             {
                 vs2 = wholeDocument.Split("\n");
 
@@ -104,10 +105,10 @@ namespace WinFormsApp2
                 {
                     string temp = arrayThatHasIt[x];
                     double tempInt;
-                    bool itsANumber= double.TryParse(temp, out tempInt);    //checks if the string is a number or char
+                    bool itsANumber = double.TryParse(temp, out tempInt);    //checks if the string is a number or char
                     if (temp.Contains(stringToRemove[y]))
                     {
-                        if(itsANumber)                                      //if its a number it should  be left alone and sent back without removing the decimal
+                        if (itsANumber)                                      //if its a number it should  be left alone and sent back without removing the decimal
                         {
                             arrayThatHasIt[x] = temp;
                             break;
