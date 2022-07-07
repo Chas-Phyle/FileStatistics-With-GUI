@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStatistics.Test", "FileStatistics.Test\FileStatistics.Test.csproj", "{36615064-BCA3-4952-8369-2742959B18D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{99C17FE0-4876-44AC-9D60-E4008EBEB637}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile2.txt = TextFile2.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
