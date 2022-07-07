@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileStatistics</name>
+    </assembly>
+    <members>
+        <member name="F:WinFormsApp2.DataTables.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.DataTables.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WinFormsApp2.DataTables.InitializeComponent(System.String)">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WinFormsApp2.Exitprompt.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.Exitprompt.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WinFormsApp2.Exitprompt.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WinFormsApp2.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WinFormsApp2.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WinFormsApp2.PopUpError.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.PopUpError.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WinFormsApp2.PopUpError.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.Program.fileStatistics(System.String)">
+            <summary>
+            This method takes in the string of a document and cleans up the string to remove special characters. After which it counts each occurance of a word and sorts them into an aray
+            </summary>
+            <param name="directory"></param>
+            <returns>A 2D array with words in column 0 and their occurances in column 1</returns>
+        </member>
+        <member name="M:WinFormsApp2.Program.FileCleaner(System.String[])">
+            <summary>
+            A method that takes in an array and removes any special characters from the array. The array will also put every character into lower case. The special characters that are removed include: ",",".","-", "—", @"""", "\"",";","!","`","?", "`", "“", "”", "‘", ":", @"\r",@"\n",@"\t". 
+            </summary>
+            <param name="arrayThatHasIt"></param>
+            <returns>A 1D array</returns>
+        </member>
+        <member name="T:WinFormsApp2.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:WinFormsApp2.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             Application.EnableVisualStyles();
+             Application.SetCompatibleTextRenderingDefault(false);
+             Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
