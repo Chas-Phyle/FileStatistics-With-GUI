@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="DataTables class">
+    <HelpKINode Title="DataTables Class" Url="html/7ddb9fe6-cfa2-fe88-af55-ee1eb22b8f92.htm" />
+    <HelpKINode Title="constructor" Url="html/d9bb27da-1ae5-fb3a-d6ac-801bfd94b870.htm" />
+    <HelpKINode Title="events" Url="html/b98782ae-61b9-c128-5ab4-6c4569c55a99.htm" />
+    <HelpKINode Title="methods" Url="html/355bdf31-bf6b-de30-05a3-4058e4d0fbe8.htm" />
+    <HelpKINode Title="properties" Url="html/78e4f1fd-d5ea-c798-ab36-641ded3ca3d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataTables.DataTables constructor" Url="html/d9bb27da-1ae5-fb3a-d6ac-801bfd94b870.htm" />
+  <HelpKINode Title="DataTables.Dispose method" Url="html/85ebb980-660d-038c-2545-7f23256d2811.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="DataTables.Dispose Method " Url="html/85ebb980-660d-038c-2545-7f23256d2811.htm" />
+    <HelpKINode Title="Exitprompt.Dispose Method " Url="html/6dd95840-d6b2-956b-de58-1f07850c3fa3.htm" />
+    <HelpKINode Title="Form1.Dispose Method " Url="html/f06f81f0-16ff-6546-0f05-31b03fae6e9a.htm" />
+    <HelpKINode Title="PopUpError.Dispose Method " Url="html/88f199d8-2ce8-1c53-c909-92fa917657b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Exitprompt class">
+    <HelpKINode Title="Exitprompt Class" Url="html/11e97cf1-2866-f204-3a1d-4607ce7bd388.htm" />
+    <HelpKINode Title="constructor" Url="html/0f72cd94-7297-0cb8-4196-c00328420aad.htm" />
+    <HelpKINode Title="events" Url="html/51e89853-d600-328a-0e26-81bcc4a869f5.htm" />
+    <HelpKINode Title="methods" Url="html/28ed7cce-a14f-67bf-ef38-c775b6c1ccac.htm" />
+    <HelpKINode Title="properties" Url="html/24339a15-ad2a-60ad-89b6-4362994ba22e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Exitprompt.Dispose method" Url="html/6dd95840-d6b2-956b-de58-1f07850c3fa3.htm" />
+  <HelpKINode Title="Exitprompt.Exitprompt constructor" Url="html/0f72cd94-7297-0cb8-4196-c00328420aad.htm" />
+  <HelpKINode Title="FileCleaner method" Url="html/a6eaf36b-7a44-7e2e-7f23-6d592341d08b.htm" />
+  <HelpKINode Title="filePath field" Url="html/e1c47c38-ad51-f49d-81aa-a4923e4f8f89.htm" />
+  <HelpKINode Title="fileStatistics method" Url="html/c2a605fb-56d0-0b43-607e-7bc5d4fc1408.htm" />
+  <HelpKINode Title="Form1 class">
+    <HelpKINode Title="Form1 Class" Url="html/cb204fd5-8adf-71b1-8da8-d1d8632ed1f1.htm" />
+    <HelpKINode Title="constructor" Url="html/f5718996-585b-dfe7-067b-77bb0300aa10.htm" />
+    <HelpKINode Title="events" Url="html/cefdeea9-81b1-46a8-214b-2af7b5ffe003.htm" />
+    <HelpKINode Title="fields" Url="html/120737ca-b0f1-d859-bea9-699ce667612c.htm" />
+    <HelpKINode Title="methods" Url="html/7d030ceb-e464-ce33-f9e5-8d6f346bb1b7.htm" />
+    <HelpKINode Title="properties" Url="html/16ab3582-7e85-b3d1-6314-1a5893070fdc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Form1.Dispose method" Url="html/f06f81f0-16ff-6546-0f05-31b03fae6e9a.htm" />
+  <HelpKINode Title="Form1.filePath field" Url="html/e1c47c38-ad51-f49d-81aa-a4923e4f8f89.htm" />
+  <HelpKINode Title="Form1.Form1 constructor" Url="html/f5718996-585b-dfe7-067b-77bb0300aa10.htm" />
+  <HelpKINode Title="Form1.getFilePath method" Url="html/35dbd918-62a1-7a5b-66c2-0b30e35a6dde.htm" />
+  <HelpKINode Title="getFilePath method" Url="html/35dbd918-62a1-7a5b-66c2-0b30e35a6dde.htm" />
+  <HelpKINode Title="getPath method" Url="html/900ac3c9-8712-8067-ab12-2aca7c39d373.htm" />
+  <HelpKINode Title="PopUpError class">
+    <HelpKINode Title="PopUpError Class" Url="html/e559c763-aabe-ce30-a25a-e7a64c0eb03f.htm" />
+    <HelpKINode Title="constructor" Url="html/c4081e65-8b99-594e-38a1-4f761adc91da.htm" />
+    <HelpKINode Title="events" Url="html/9363f75c-6fa4-853f-4c5a-be41a0358c2b.htm" />
+    <HelpKINode Title="methods" Url="html/27397a4c-4ee7-a1bd-f8a4-a90a88248fad.htm" />
+    <HelpKINode Title="properties" Url="html/cedefe4f-cf91-3f2f-f346-6cca8c55f7a1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PopUpError.Dispose method" Url="html/88f199d8-2ce8-1c53-c909-92fa917657b1.htm" />
+  <HelpKINode Title="PopUpError.PopUpError constructor" Url="html/c4081e65-8b99-594e-38a1-4f761adc91da.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/a68ad31b-b94b-88e3-b084-6df97a4542b9.htm" />
+    <HelpKINode Title="methods" Url="html/d54130e4-63d1-4c8a-d812-ce8ffdd4f8c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.FileCleaner method" Url="html/a6eaf36b-7a44-7e2e-7f23-6d592341d08b.htm" />
+  <HelpKINode Title="Program.fileStatistics method" Url="html/c2a605fb-56d0-0b43-607e-7bc5d4fc1408.htm" />
+  <HelpKINode Title="Program.getPath method" Url="html/900ac3c9-8712-8067-ab12-2aca7c39d373.htm" />
+  <HelpKINode Title="Program.setPath method" Url="html/80fb6f87-9876-5c03-a53f-24e392b81d8f.htm" />
+  <HelpKINode Title="setPath method" Url="html/80fb6f87-9876-5c03-a53f-24e392b81d8f.htm" />
+  <HelpKINode Title="WinFormsApp2 namespace" Url="html/66e1efeb-e76f-4184-bd0d-d5ae31932f8c.htm" />
+  <HelpKINode Title="WinFormsApp2.DataTables class" Url="html/7ddb9fe6-cfa2-fe88-af55-ee1eb22b8f92.htm" />
+  <HelpKINode Title="WinFormsApp2.Exitprompt class" Url="html/11e97cf1-2866-f204-3a1d-4607ce7bd388.htm" />
+  <HelpKINode Title="WinFormsApp2.Form1 class" Url="html/cb204fd5-8adf-71b1-8da8-d1d8632ed1f1.htm" />
+  <HelpKINode Title="WinFormsApp2.PopUpError class" Url="html/e559c763-aabe-ce30-a25a-e7a64c0eb03f.htm" />
+  <HelpKINode Title="WinFormsApp2.Program class" Url="html/a68ad31b-b94b-88e3-b084-6df97a4542b9.htm" />
+</HelpKI>
