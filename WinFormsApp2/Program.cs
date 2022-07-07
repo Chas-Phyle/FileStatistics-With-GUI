@@ -1,5 +1,6 @@
+using WinFormsApp2;
 
-namespace WinFormsApp2
+namespace FileStatistics
 {
     public static class Program
     {
@@ -16,9 +17,9 @@ namespace WinFormsApp2
         }
         public static void setPath(string pathLocation)
         {
-            Program.currentPath = pathLocation;
+            currentPath = pathLocation;
         }
-        public static String getPath()
+        public static string getPath()
         {
             return currentPath;
         }
@@ -45,7 +46,7 @@ namespace WinFormsApp2
             }
             vs2 = FileCleaner(vs2);
             var numberOfWords = vs2.Length;
-            var query = vs2.GroupBy(r => r).Where(r => (r != null)).Select(grp => new
+            var query = vs2.GroupBy(r => r).Where(r => r != null).Select(grp => new
             {
                 Value = grp.Key,
                 Count = grp.Count()
@@ -61,7 +62,7 @@ namespace WinFormsApp2
                 counter++;
             }
             word = word.Where(x => !string.IsNullOrEmpty(x)).ToArray();             //used to remove any null or empty values
-            numberOfOcurances = numberOfOcurances.Where(x => (x != 0)).ToArray();   //used to remove anything that = 0 neither the top or bottom command should change anything but its a precaution
+            numberOfOcurances = numberOfOcurances.Where(x => x != 0).ToArray();   //used to remove anything that = 0 neither the top or bottom command should change anything but its a precaution
             counter = 0;
 
             Array.Sort(numberOfOcurances, word);
@@ -71,7 +72,7 @@ namespace WinFormsApp2
                 numberOfOcurancesString[counter] = i.ToString();
                 counter++;
             }
-            var final = new String[word.Length, 2];
+            var final = new string[word.Length, 2];
             counter = 0;
             foreach (var i in word)
             {

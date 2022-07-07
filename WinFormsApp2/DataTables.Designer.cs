@@ -1,5 +1,6 @@
 ﻿using static WinFormsApp2.Form1;
-using static WinFormsApp2.Program;
+using static FileStatistics.Program;
+
 namespace WinFormsApp2
 {
     partial class DataTables
