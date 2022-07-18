@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStatistics", "WinFormsApp2\FileStatistics.csproj", "{40E08351-ADBF-405F-BA39-616EF9CC7E26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7406F805-4F67-4EE4-B584-A87C375099B8} = {7406F805-4F67-4EE4-B584-A87C375099B8}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStatistics.Test", "FileStatistics.Test\FileStatistics.Test.csproj", "{36615064-BCA3-4952-8369-2742959B18D5}"
 EndProject
@@ -28,6 +31,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Help", "WinFormsApp2\bin\De
 		SlnRelativePath = "WinFormsApp2\bin\Debug\net6.0-windows\Documentation\Help\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLDataAccess", "MySQLDataAccess\MySQLDataAccess.csproj", "{7406F805-4F67-4EE4-B584-A87C375099B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +51,10 @@ Global
 		{05B8B735-D723-480F-8EBE-310EAC6E0C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05B8B735-D723-480F-8EBE-310EAC6E0C8B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{05B8B735-D723-480F-8EBE-310EAC6E0C8B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7406F805-4F67-4EE4-B584-A87C375099B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7406F805-4F67-4EE4-B584-A87C375099B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7406F805-4F67-4EE4-B584-A87C375099B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7406F805-4F67-4EE4-B584-A87C375099B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

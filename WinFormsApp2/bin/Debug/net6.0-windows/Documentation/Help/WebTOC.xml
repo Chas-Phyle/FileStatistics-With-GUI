@@ -1,53 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="c8f95cd5-d357-4f38-86d9-4b53b59f2b29" Title="WinFormsApp2" Url="html/66e1efeb-e76f-4184-bd0d-d5ae31932f8c.htm">
-    <HelpTOCNode Id="aae62b40-102d-4c10-ad4a-d02a77c9b16a" Title="DataTables Class" Url="html/7ddb9fe6-cfa2-fe88-af55-ee1eb22b8f92.htm">
+  <HelpTOCNode Id="3c9ab013-d062-49f2-8bc6-ca0ad2c4d201" Title="WinFormsApp2" Url="html/66e1efeb-e76f-4184-bd0d-d5ae31932f8c.htm">
+    <HelpTOCNode Id="959e17b1-ef85-4248-8b47-0ab70863b422" Title="DataTables Class" Url="html/7ddb9fe6-cfa2-fe88-af55-ee1eb22b8f92.htm">
       <HelpTOCNode Title="DataTables Constructor " Url="html/d9bb27da-1ae5-fb3a-d6ac-801bfd94b870.htm" />
       <HelpTOCNode Title="DataTables Properties" Url="html/78e4f1fd-d5ea-c798-ab36-641ded3ca3d2.htm" />
-      <HelpTOCNode Id="2d12c880-fc27-4cbc-8ec9-b4845d3dcbb3" Title="DataTables Methods" Url="html/355bdf31-bf6b-de30-05a3-4058e4d0fbe8.htm">
-        <HelpTOCNode Id="fc8fdaae-c58e-419b-bfdc-ec2276f4029f" Title="Dispose Method " Url="html/85ebb980-660d-038c-2545-7f23256d2811.htm">
+      <HelpTOCNode Id="24f279b7-7eca-47f9-b56a-069a75d53f84" Title="DataTables Methods" Url="html/355bdf31-bf6b-de30-05a3-4058e4d0fbe8.htm">
+        <HelpTOCNode Id="ac0a05d9-6369-41e9-a169-bad90d128783" Title="Dispose Method " Url="html/85ebb980-660d-038c-2545-7f23256d2811.htm">
           <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/22579568-2704-fb2f-cd79-fcafe70934ff.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="DataTables Events" Url="html/b98782ae-61b9-c128-5ab4-6c4569c55a99.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4fbd185b-e3d8-4e77-9747-a1dc4026fdb8" Title="Exitprompt Class" Url="html/11e97cf1-2866-f204-3a1d-4607ce7bd388.htm">
+    <HelpTOCNode Id="31653d40-146e-4dc4-9378-453a0a423d85" Title="Exitprompt Class" Url="html/11e97cf1-2866-f204-3a1d-4607ce7bd388.htm">
       <HelpTOCNode Title="Exitprompt Constructor " Url="html/0f72cd94-7297-0cb8-4196-c00328420aad.htm" />
       <HelpTOCNode Title="Exitprompt Properties" Url="html/24339a15-ad2a-60ad-89b6-4362994ba22e.htm" />
-      <HelpTOCNode Id="a62ba4c4-4fbd-4123-b448-4eed866a9dca" Title="Exitprompt Methods" Url="html/28ed7cce-a14f-67bf-ef38-c775b6c1ccac.htm">
-        <HelpTOCNode Id="f3acc044-2e6d-4f9e-b51b-9457cae3197c" Title="Dispose Method " Url="html/6dd95840-d6b2-956b-de58-1f07850c3fa3.htm">
+      <HelpTOCNode Id="a573599f-fd94-48e3-9631-e868d5aeea8c" Title="Exitprompt Methods" Url="html/28ed7cce-a14f-67bf-ef38-c775b6c1ccac.htm">
+        <HelpTOCNode Id="298cf70f-1302-4fbc-88e1-2e845c5f0842" Title="Dispose Method " Url="html/6dd95840-d6b2-956b-de58-1f07850c3fa3.htm">
           <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/ff06fded-bc3b-e2a9-7cfa-a317adbc57bf.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="Exitprompt Events" Url="html/51e89853-d600-328a-0e26-81bcc4a869f5.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="3c655336-65cf-499e-bb16-4d6a0090fbdd" Title="Form1 Class" Url="html/cb204fd5-8adf-71b1-8da8-d1d8632ed1f1.htm">
+    <HelpTOCNode Id="17e80e52-a3c2-41ca-b115-f2481e427d88" Title="Form1 Class" Url="html/cb204fd5-8adf-71b1-8da8-d1d8632ed1f1.htm">
       <HelpTOCNode Title="Form1 Constructor " Url="html/f5718996-585b-dfe7-067b-77bb0300aa10.htm" />
       <HelpTOCNode Title="Form1 Properties" Url="html/16ab3582-7e85-b3d1-6314-1a5893070fdc.htm" />
-      <HelpTOCNode Id="78f5456c-f984-4c25-9dcb-426d6a1f4da7" Title="Form1 Methods" Url="html/7d030ceb-e464-ce33-f9e5-8d6f346bb1b7.htm">
-        <HelpTOCNode Id="a446774e-4433-4d70-aab6-758648720c08" Title="Dispose Method " Url="html/f06f81f0-16ff-6546-0f05-31b03fae6e9a.htm">
+      <HelpTOCNode Id="f067daae-0a74-402f-832b-87d3231871e7" Title="Form1 Methods" Url="html/7d030ceb-e464-ce33-f9e5-8d6f346bb1b7.htm">
+        <HelpTOCNode Id="19503b08-e7bd-405c-8efa-614c86b2f378" Title="Dispose Method " Url="html/f06f81f0-16ff-6546-0f05-31b03fae6e9a.htm">
           <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/c01a239d-1f40-0e97-40f6-0d487e7c23a4.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="getFilePath Method " Url="html/35dbd918-62a1-7a5b-66c2-0b30e35a6dde.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="Form1 Events" Url="html/cefdeea9-81b1-46a8-214b-2af7b5ffe003.htm" />
-      <HelpTOCNode Id="585f75a7-0738-4423-8037-bc57c2013385" Title="Form1 Fields" Url="html/120737ca-b0f1-d859-bea9-699ce667612c.htm">
+      <HelpTOCNode Id="133b5d3a-71ae-489a-bec1-67bc8de69815" Title="Form1 Fields" Url="html/120737ca-b0f1-d859-bea9-699ce667612c.htm">
         <HelpTOCNode Title="filePath Field" Url="html/e1c47c38-ad51-f49d-81aa-a4923e4f8f89.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d7028347-63a9-4cb3-b75e-8bfcf104a441" Title="PopUpError Class" Url="html/e559c763-aabe-ce30-a25a-e7a64c0eb03f.htm">
+    <HelpTOCNode Id="975bc8d4-cfb9-4784-bf00-92f665535bee" Title="PopUpError Class" Url="html/e559c763-aabe-ce30-a25a-e7a64c0eb03f.htm">
       <HelpTOCNode Title="PopUpError Constructor " Url="html/c4081e65-8b99-594e-38a1-4f761adc91da.htm" />
       <HelpTOCNode Title="PopUpError Properties" Url="html/cedefe4f-cf91-3f2f-f346-6cca8c55f7a1.htm" />
-      <HelpTOCNode Id="89f35e02-32af-4cd1-92e1-fcb70ac8331e" Title="PopUpError Methods" Url="html/27397a4c-4ee7-a1bd-f8a4-a90a88248fad.htm">
-        <HelpTOCNode Id="6265c135-b97f-4383-bde9-382fb35bfd0a" Title="Dispose Method " Url="html/88f199d8-2ce8-1c53-c909-92fa917657b1.htm">
+      <HelpTOCNode Id="b47d6783-e48a-48c4-9a08-b05bc31f6046" Title="PopUpError Methods" Url="html/27397a4c-4ee7-a1bd-f8a4-a90a88248fad.htm">
+        <HelpTOCNode Id="fc6639fc-4068-443c-9489-51197c9629eb" Title="Dispose Method " Url="html/88f199d8-2ce8-1c53-c909-92fa917657b1.htm">
           <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/cbfab947-5fe9-ff1a-d64f-a13e3bc801da.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="PopUpError Events" Url="html/9363f75c-6fa4-853f-4c5a-be41a0358c2b.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="c176a201-0a80-4364-9931-3edd0bd9b2cf" Title="Program Class" Url="html/a68ad31b-b94b-88e3-b084-6df97a4542b9.htm">
-      <HelpTOCNode Id="b3421822-9f0d-47a4-a280-8eb32ab33d6f" Title="Program Methods" Url="html/d54130e4-63d1-4c8a-d812-ce8ffdd4f8c1.htm">
+    <HelpTOCNode Id="eb15335f-f3e7-463e-8703-58d8e8bc0c02" Title="Program Class" Url="html/a68ad31b-b94b-88e3-b084-6df97a4542b9.htm">
+      <HelpTOCNode Id="3e0305c8-6ce8-4ffd-9d71-09c8642edfbf" Title="Program Methods" Url="html/d54130e4-63d1-4c8a-d812-ce8ffdd4f8c1.htm">
         <HelpTOCNode Title="FileCleaner Method " Url="html/a6eaf36b-7a44-7e2e-7f23-6d592341d08b.htm" />
         <HelpTOCNode Title="fileStatistics Method " Url="html/c2a605fb-56d0-0b43-607e-7bc5d4fc1408.htm" />
         <HelpTOCNode Title="getPath Method " Url="html/900ac3c9-8712-8067-ab12-2aca7c39d373.htm" />

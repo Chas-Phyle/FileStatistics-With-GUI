@@ -1,5 +1,6 @@
 ﻿using static WinFormsApp2.Form1;
 using static FileStatistics.Program;
+using MySql.Data.MySqlClient;
 
 namespace WinFormsApp2
 {
@@ -91,25 +92,42 @@ namespace WinFormsApp2
         private DataGridViewTextBoxColumn NumberOfOcurances;
         private void resultsOfStatistics(string path)
         {
+            var dbName = "Server=127.0.0.1;Port=3306;database=filestatistics;user id=root;password=8520123789";
+            var connection = new MySqlConnection(dbName);
             
-            var final = fileStatistics(path);
-            if ((final.Length/2) < 20)
+            //connection.Open();
+            var rowLength = 0;
+            fileStatistics(path);
+            
+            MySqlCommand cmd = new MySqlCommand("select * from test order by occurance desc;", connection);
+            connection.Open();
+            MySqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read() && rowLength < 20)
             {
-                for (int i = 0; i<(final.Length/2); i++)
-                {
+                this.dataGridView1.Rows.Add(reader["word"].ToString(), reader["occurance"].ToString());
+                rowLength++;
+            }
+            connection.Close();
+            DeleteData(connection);
 
-                    this.dataGridView1.Rows.Add(final[((final.Length / 2) - 1) - i, 0], final[((final.Length / 2) - 1) - i, 1]);
+            //if ((final.Length / 2) < 20)
+            //{
+            //    for (int i = 0; i < (rowLength / 2); i++)
+            //    {
 
-                }
-            }
-            else { 
-            for(int i = 0; (i < 20);i++)
-            {
-        
-                    this.dataGridView1.Rows.Add(final[((final.Length/2)-1) - i, 0], final[((final.Length/2)-1)-i, 1]);
-                
-            }
-            }
+            //        this.dataGridView1.Rows.Add(final[((final.Length / 2) - 1) - i, 0], final[((final.Length / 2) - 1) - i, 1]);
+
+            //    }
+            //}
+            //else
+            //{
+            //    for (int i = 0; (i < 20); i++)
+            //    {
+
+            //        this.dataGridView1.Rows.Add(final[((final.Length / 2) - 1) - i, 0], final[((final.Length / 2) - 1) - i, 1]);
+
+            //    }
+            //}
         }
 
         private Button button1;
